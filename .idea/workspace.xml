@@ -4,13 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56379783-e370-4cb0-a4eb-9475c26b516a" name="Changes" comment="编写并测试service">
-      <change afterPath="$PROJECT_DIR$/api-test/http-client.env.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-test/xc-content-api.http" afterDir="false" />
+    <list default="true" id="56379783-e370-4cb0-a4eb-9475c26b516a" name="Changes" comment="接口测试完善和httpclient测试">
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-system/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/src/main/java/com/xuecheng/system/SystemApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/src/main/java/com/xuecheng/system/config/GlobalCorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/src/main/java/com/xuecheng/system/config/LocalDateTimeConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/src/main/java/com/xuecheng/system/controller/DictionaryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/src/main/resources/log4j2-dev.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-model/src/main/java/com/xuecheng/system/model/po/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-service/src/main/java/com/xuecheng/system/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-service/src/main/java/com/xuecheng/system/mapper/DictionaryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-service/src/main/java/com/xuecheng/system/mapper/DictionaryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-service/src/main/java/com/xuecheng/system/service/DictionaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-service/src/main/java/com/xuecheng/system/service/impl/DictionaryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/CourseBaseInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/CourseBaseInfoController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,11 +92,16 @@
     "HTTP Request.generated-requests | #1.executor": "Run",
     "JUnit.CourseBaseInfoServiceTests.testCourseBaseInfoService.executor": "Run",
     "JUnit.CourseBaseMapperTests.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.SystemApplication.executor": "Debug",
     "git-widget-placeholder": "dev",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/JavaProjects/xuecheng-plus/xuecheng-plus-content/xuecheng-plus-content-service/src/test/resources",
+    "last_opened_file_path": "D:/JavaProjects/xuecheng-plus/xuecheng-plus-system/xuecheng-plus-system-service/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -92,37 +112,36 @@
     "project.structure.side.proportion": "0.29310346",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaProjects\xuecheng-plus\xuecheng-plus-system\xuecheng-plus-system-service\src\main\resources" />
+      <recent name="D:\JavaProjects\xuecheng-plus" />
       <recent name="D:\JavaProjects\xuecheng-plus\xuecheng-plus-content\xuecheng-plus-content-service\src\test\resources" />
       <recent name="D:\JavaProjects\xuecheng-plus\xuecheng-plus-content\xuecheng-plus-content-service\src\main\java\com\xuecheng\content" />
       <recent name="D:\JavaProjects\xuecheng-plus\xuecheng-plus-content\xuecheng-plus-content-service\src\main\java\com\xuecheng\content\mapper" />
-      <recent name="D:\JavaProjects\xuecheng-plus\xuecheng-plus-base\src\main\java\com\xuecheng\base\config" />
-      <recent name="D:\JavaProjects\xuecheng-plus\xuecheng-plus-content\xuecheng-plus-content-api\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="HTTP Request.generated-requests | #1">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SystemApplication">
     <configuration name="ContentApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xuecheng.ContentApplication" />
       <module name="xuecheng-plus-content-api" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xuecheng.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContentCodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.generator.ContentCodeGenerator" />
-      <module name="xuecheng-plus-generator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xuecheng.generator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,13 +183,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="xuecheng-plus-system-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.system.SystemApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuecheng.system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.generated-requests | #1" />
+        <item itemvalue="Spring Boot.SystemApplication" />
         <item itemvalue="Application.ContentApplication" />
+        <item itemvalue="HTTP Request.generated-requests | #1" />
         <item itemvalue="JUnit.CourseBaseInfoServiceTests.testCourseBaseInfoService" />
         <item itemvalue="JUnit.CourseBaseMapperTests" />
-        <item itemvalue="Application.ContentCodeGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +224,7 @@
       <updated>1741167421237</updated>
       <workItem from="1741167423368" duration="124000" />
       <workItem from="1741227950285" duration="5450000" />
-      <workItem from="1741242654609" duration="9256000" />
+      <workItem from="1741242654609" duration="14073000" />
     </task>
     <task id="LOCAL-00001" summary="接口设计">
       <option name="closed" value="true" />
@@ -234,7 +266,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741250636535</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="接口测试完善和httpclient测试">
+      <option name="closed" value="true" />
+      <created>1741252793629</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741252793629</updated>
+    </task>
+    <task id="LOCAL-00007" summary="接口测试完善和httpclient测试">
+      <option name="closed" value="true" />
+      <created>1741252847698</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741252847698</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +293,7 @@
     <MESSAGE value="课程查询接口设计" />
     <MESSAGE value="测试mapper" />
     <MESSAGE value="编写并测试service" />
-    <option name="LAST_COMMIT_MESSAGE" value="编写并测试service" />
+    <MESSAGE value="接口测试完善和httpclient测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="接口测试完善和httpclient测试" />
   </component>
 </project>
