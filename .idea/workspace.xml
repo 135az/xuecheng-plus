@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56379783-e370-4cb0-a4eb-9475c26b516a" name="Changes" comment="测试mapper">
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/CourseBaseInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CourseBaseInfoServiceImpl.java" afterDir="false" />
+    <list default="true" id="56379783-e370-4cb0-a4eb-9475c26b516a" name="Changes" comment="编写并测试service">
+      <change afterPath="$PROJECT_DIR$/api-test/http-client.env.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-test/xc-content-api.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/CourseBaseInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/CourseBaseInfoController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +44,9 @@
     &quot;accountId&quot;: &quot;82a259b0-5905-4836-9424-87c6f7e2a532&quot;
   }
 }</component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="file://$PROJECT_DIR$/api-test/xc-content-api.http" environment="dev" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -68,6 +74,8 @@
   "keyToString": {
     "Application.ContentApplication.executor": "Debug",
     "Application.ContentCodeGenerator.executor": "Run",
+    "HTTP Request.generated-requests | #1.executor": "Run",
+    "JUnit.CourseBaseInfoServiceTests.testCourseBaseInfoService.executor": "Run",
     "JUnit.CourseBaseMapperTests.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -82,7 +90,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.29310346",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -95,7 +103,7 @@
       <recent name="D:\JavaProjects\xuecheng-plus\xuecheng-plus-content\xuecheng-plus-content-api\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CourseBaseInfoServiceTests.testCourseBaseInfoService">
+  <component name="RunManager" selected="HTTP Request.generated-requests | #1">
     <configuration name="ContentApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xuecheng.ContentApplication" />
       <module name="xuecheng-plus-content-api" />
@@ -121,6 +129,9 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#1" runType="Run single request">
+      <method v="2" />
     </configuration>
     <configuration name="CourseBaseInfoServiceTests.testCourseBaseInfoService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="xuecheng-plus-content-service" />
@@ -155,9 +166,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests | #1" />
+        <item itemvalue="Application.ContentApplication" />
         <item itemvalue="JUnit.CourseBaseInfoServiceTests.testCourseBaseInfoService" />
         <item itemvalue="JUnit.CourseBaseMapperTests" />
-        <item itemvalue="Application.ContentApplication" />
         <item itemvalue="Application.ContentCodeGenerator" />
       </list>
     </recent_temporary>
@@ -180,7 +192,7 @@
       <updated>1741167421237</updated>
       <workItem from="1741167423368" duration="124000" />
       <workItem from="1741227950285" duration="5450000" />
-      <workItem from="1741242654609" duration="6820000" />
+      <workItem from="1741242654609" duration="9256000" />
     </task>
     <task id="LOCAL-00001" summary="接口设计">
       <option name="closed" value="true" />
@@ -214,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741249442897</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="编写并测试service">
+      <option name="closed" value="true" />
+      <created>1741250636535</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741250636535</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +244,7 @@
     <MESSAGE value="接口设计" />
     <MESSAGE value="课程查询接口设计" />
     <MESSAGE value="测试mapper" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试mapper" />
+    <MESSAGE value="编写并测试service" />
+    <option name="LAST_COMMIT_MESSAGE" value="编写并测试service" />
   </component>
 </project>
