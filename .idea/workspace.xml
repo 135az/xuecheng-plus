@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56379783-e370-4cb0-a4eb-9475c26b516a" name="Changes" comment="修改课程接口设计">
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/TeachplanController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/src/main/java/com/xuecheng/content/model/dto/TeachplanDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/TeachplanService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/TeachplanServiceImpl.java" afterDir="false" />
+    <list default="true" id="56379783-e370-4cb0-a4eb-9475c26b516a" name="Changes" comment="查询课程计划接口设计">
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/src/main/java/com/xuecheng/content/model/dto/SaveTeachplanDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-test/xc-content-api.http" beforeDir="false" afterPath="$PROJECT_DIR$/api-test/xc-content-api.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/mapper/TeachplanMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/mapper/TeachplanMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/mapper/TeachplanMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/mapper/TeachplanMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/TeachplanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/TeachplanController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/TeachplanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/TeachplanService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/TeachplanServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/TeachplanServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,10 +79,13 @@
     "HTTP Request.generated-requests | #1.executor": "Run",
     "HTTP Request.xc-content-api | 修改课程.executor": "Run",
     "HTTP Request.xc-content-api | 创建课程.executor": "Run",
+    "HTTP Request.xc-content-api | 新增课程计划--章.executor": "Run",
+    "HTTP Request.xc-content-api | 新增课程计划--节,从数据库找到第一级的课程计划id向其下边添加计划.executor": "Run",
     "HTTP Request.xc-content-api | 查询某个课程的课程计划.executor": "Run",
     "HTTP Request.xc-content-api | 查询课程信息.executor": "Run",
     "HTTP Request.xc-content-api | 根据课程id查询课程信息.executor": "Run",
     "HTTP Request.xc-content-api | 课程分类查询.executor": "Run",
+    "HTTP Request.xc-content-api | 课程课程计划,需要从数据库找到修改的课程计划id.executor": "Run",
     "JUnit.CourseBaseInfoServiceTests.testCourseBaseInfoService.executor": "Run",
     "JUnit.CourseBaseMapperTests.executor": "Run",
     "JUnit.CourseCategoryServiceTests.executor": "Run",
@@ -134,17 +135,17 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.xc-content-api | 查询某个课程的课程计划">
-    <configuration name="xc-content-api | 修改课程" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-content-api.http" executionIdentifier="修改课程" index="5" runType="Run single request">
+  <component name="RunManager" selected="HTTP Request.xc-content-api | 课程课程计划,需要从数据库找到修改的课程计划id">
+    <configuration name="xc-content-api | 新增课程计划--章" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-content-api.http" executionIdentifier="新增课程计划--章" index="7" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="xc-content-api | 新增课程计划--节,从数据库找到第一级的课程计划id向其下边添加计划" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-content-api.http" executionIdentifier="新增课程计划--节,从数据库找到第一级的课程计划id向其下边添加计划" index="8" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="xc-content-api | 查询某个课程的课程计划" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-content-api.http" executionIdentifier="查询某个课程的课程计划" index="6" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="xc-content-api | 根据课程id查询课程信息" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-content-api.http" executionIdentifier="根据课程id查询课程信息" index="4" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="xc-content-api | 课程分类查询" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-content-api.http" executionIdentifier="课程分类查询" index="2" runType="Run single request">
+    <configuration name="xc-content-api | 课程课程计划,需要从数据库找到修改的课程计划id" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-content-api.http" executionIdentifier="课程课程计划,需要从数据库找到修改的课程计划id" index="9" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="ContentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -162,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.xc-content-api | 查询某个课程的课程计划" />
         <item itemvalue="Spring Boot.ContentApplication" />
-        <item itemvalue="HTTP Request.xc-content-api | 修改课程" />
-        <item itemvalue="HTTP Request.xc-content-api | 根据课程id查询课程信息" />
-        <item itemvalue="HTTP Request.xc-content-api | 课程分类查询" />
+        <item itemvalue="HTTP Request.xc-content-api | 课程课程计划,需要从数据库找到修改的课程计划id" />
+        <item itemvalue="HTTP Request.xc-content-api | 新增课程计划--节,从数据库找到第一级的课程计划id向其下边添加计划" />
+        <item itemvalue="HTTP Request.xc-content-api | 新增课程计划--章" />
+        <item itemvalue="HTTP Request.xc-content-api | 查询某个课程的课程计划" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +191,7 @@
       <workItem from="1741227950285" duration="5450000" />
       <workItem from="1741242654609" duration="14421000" />
       <workItem from="1741259117772" duration="11000" />
-      <workItem from="1741399042260" duration="16644000" />
+      <workItem from="1741399042260" duration="17842000" />
     </task>
     <task id="LOCAL-00001" summary="接口设计">
       <option name="closed" value="true" />
@@ -296,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741420640957</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="查询课程计划接口设计">
+      <option name="closed" value="true" />
+      <created>1741423611199</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1741423611199</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,6 +323,7 @@
     <MESSAGE value="添加课程接口测试" />
     <MESSAGE value="JSR303校验和分组校验实现" />
     <MESSAGE value="修改课程接口设计" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改课程接口设计" />
+    <MESSAGE value="查询课程计划接口设计" />
+    <option name="LAST_COMMIT_MESSAGE" value="查询课程计划接口设计" />
   </component>
 </project>
