@@ -54,4 +54,14 @@ public interface CourseBaseInfoService {
      * @date 2022/9/8 21:04
      */
     CourseBaseInfoDto updateCourseBase(Long companyId, EditCourseDto dto);
+
+    /**
+     * @param companyId 机构id
+     * @param courseId  课程id
+     * @return com.xuecheng.content.model.dto.CourseBaseInfoDto
+     * @description 删除课程信息
+     * @author Mr.M
+     * @date 2022/9/8 21:04
+     */
+    void delectCourse(Long companyId, Long courseId);
 }
