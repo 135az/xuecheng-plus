@@ -30,4 +30,19 @@ public interface TeachplanService {
      * @date 2022/9/9 13:39
      */
     void saveTeachplan(SaveTeachplanDto teachplanDto);
+
+    /**
+     * @param teachplanId
+     * @description 删除课程计划
+     */
+    void deleteTeachplan(Long teachplanId);
+
+    /***
+     *
+     * @param moveType 移动类型
+     * @param teachplanId
+     * @description 课程计划排序
+     */
+    void orderByTeachplan(String moveType, Long teachplanId);
+
 }
