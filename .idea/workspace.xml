@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56379783-e370-4cb0-a4eb-9475c26b516a" name="Changes" comment="师资管理CRUD全部设计">
+    <list default="true" id="56379783-e370-4cb0-a4eb-9475c26b516a" name="Changes" comment="删除课程信息设计">
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/CourseBaseInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/CourseBaseInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/CourseBaseInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/CourseBaseInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CourseBaseInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CourseBaseInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/test/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/test/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,53 +75,55 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ContentApplication.executor": "Debug",
-    "Application.ContentCodeGenerator.executor": "Run",
-    "HTTP Request.generated-requests | #1.executor": "Run",
-    "HTTP Request.xc-content-api | 修改课程.executor": "Run",
-    "HTTP Request.xc-content-api | 创建课程.executor": "Run",
-    "HTTP Request.xc-content-api | 新增课程计划--章.executor": "Run",
-    "HTTP Request.xc-content-api | 新增课程计划--节,从数据库找到第一级的课程计划id向其下边添加计划.executor": "Run",
-    "HTTP Request.xc-content-api | 查询某个课程的课程计划.executor": "Run",
-    "HTTP Request.xc-content-api | 查询课程信息.executor": "Run",
-    "HTTP Request.xc-content-api | 根据课程id查询课程信息.executor": "Run",
-    "HTTP Request.xc-content-api | 课程分类查询.executor": "Run",
-    "HTTP Request.xc-content-api | 课程课程计划,需要从数据库找到修改的课程计划id.executor": "Run",
-    "JUnit.CourseBaseInfoServiceTests.testCourseBaseInfoService.executor": "Run",
-    "JUnit.CourseBaseMapperTests.executor": "Run",
-    "JUnit.CourseCategoryServiceTests.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.ContentApplication.executor": "Debug",
-    "Spring Boot.SystemApplication.executor": "Debug",
-    "git-widget-placeholder": "dev",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/JavaProjects/xuecheng-plus/xuecheng-plus-base/src/main/java/com/xuecheng/base/exception",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.29310346",
-    "rest.client.default.execution.environment": "dev",
-    "settings.editor.selected.configurable": "editing.templates",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ContentApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ContentCodeGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.xc-content-api | 修改课程.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.xc-content-api | 创建课程.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.xc-content-api | 新增课程计划--章.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.xc-content-api | 新增课程计划--节,从数据库找到第一级的课程计划id向其下边添加计划.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.xc-content-api | 查询某个课程的课程计划.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.xc-content-api | 查询课程信息.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.xc-content-api | 根据课程id查询课程信息.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.xc-content-api | 课程分类查询.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.xc-content-api | 课程课程计划,需要从数据库找到修改的课程计划id.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CourseBaseInfoServiceTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CourseBaseInfoServiceTests.testCourseBaseInfoService.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CourseBaseMapperTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CourseBaseMapperTests.testCourseBaseMapper.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CourseCategoryServiceTests.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ContentApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.SystemApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JavaProjects/xuecheng-plus/xuecheng-plus-base/src/main/java/com/xuecheng/base/exception&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.29310346&quot;,
+    &quot;rest.client.default.execution.environment&quot;: &quot;dev&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JavaProjects\xuecheng-plus\xuecheng-plus-base\src\main\java\com\xuecheng\base\exception" />
@@ -131,15 +140,52 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SystemApplication">
-    <configuration name="xc-content-api | 新增课程计划--章" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-content-api.http" executionIdentifier="新增课程计划--章" index="7" runType="Run single request">
-      <method v="2" />
+  <component name="RunManager" selected="JUnit.CourseCategoryServiceTests">
+    <configuration name="CourseBaseInfoServiceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xuecheng-plus-content-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuecheng.content.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuecheng.content" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.content.CourseBaseInfoServiceTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="xc-content-api | 新增课程计划--节,从数据库找到第一级的课程计划id向其下边添加计划" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-content-api.http" executionIdentifier="新增课程计划--节,从数据库找到第一级的课程计划id向其下边添加计划" index="8" runType="Run single request">
-      <method v="2" />
+    <configuration name="CourseBaseMapperTests.testCourseBaseMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xuecheng-plus-content-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuecheng.content.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuecheng.content" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.content.CourseBaseMapperTests" />
+      <option name="METHOD_NAME" value="testCourseBaseMapper" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="xc-content-api | 课程课程计划,需要从数据库找到修改的课程计划id" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-content-api.http" executionIdentifier="课程课程计划,需要从数据库找到修改的课程计划id" index="9" runType="Run single request">
-      <method v="2" />
+    <configuration name="CourseCategoryServiceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xuecheng-plus-content-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuecheng.content.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuecheng.content" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.content.CourseCategoryServiceTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ContentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="xuecheng-plus-content-api" />
@@ -168,19 +214,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="HTTP Request.xc-content-api | 新增课程计划--章" />
-      <item itemvalue="HTTP Request.xc-content-api | 新增课程计划--节,从数据库找到第一级的课程计划id向其下边添加计划" />
-      <item itemvalue="HTTP Request.xc-content-api | 课程课程计划,需要从数据库找到修改的课程计划id" />
+      <item itemvalue="JUnit.CourseCategoryServiceTests" />
+      <item itemvalue="JUnit.CourseBaseInfoServiceTests" />
+      <item itemvalue="JUnit.CourseBaseMapperTests.testCourseBaseMapper" />
       <item itemvalue="Spring Boot.SystemApplication" />
       <item itemvalue="Spring Boot.ContentApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ContentApplication" />
+        <item itemvalue="JUnit.CourseCategoryServiceTests" />
         <item itemvalue="Spring Boot.SystemApplication" />
-        <item itemvalue="HTTP Request.xc-content-api | 课程课程计划,需要从数据库找到修改的课程计划id" />
-        <item itemvalue="HTTP Request.xc-content-api | 新增课程计划--节,从数据库找到第一级的课程计划id向其下边添加计划" />
-        <item itemvalue="HTTP Request.xc-content-api | 新增课程计划--章" />
+        <item itemvalue="JUnit.CourseBaseMapperTests.testCourseBaseMapper" />
+        <item itemvalue="JUnit.CourseBaseInfoServiceTests" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +251,8 @@
       <workItem from="1741242654609" duration="14421000" />
       <workItem from="1741259117772" duration="11000" />
       <workItem from="1741399042260" duration="19930000" />
-      <workItem from="1741500320264" duration="4699000" />
+      <workItem from="1741500320264" duration="19122000" />
+      <workItem from="1741524128953" duration="1356000" />
     </task>
     <task id="LOCAL-00001" summary="接口设计">
       <option name="closed" value="true" />
@@ -335,7 +382,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741505784270</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="删除课程信息设计">
+      <option name="closed" value="true" />
+      <created>1741506338838</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1741506338838</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,6 +411,7 @@
     <MESSAGE value="查询课程计划接口设计" />
     <MESSAGE value="新增/修改课程计划-功能设计" />
     <MESSAGE value="师资管理CRUD全部设计" />
-    <option name="LAST_COMMIT_MESSAGE" value="师资管理CRUD全部设计" />
+    <MESSAGE value="删除课程信息设计" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除课程信息设计" />
   </component>
 </project>
